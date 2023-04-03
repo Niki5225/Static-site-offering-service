@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Subscription Plans</title>
+	<style>
+		body {
+			background-image: url("https://www.telegraph.co.uk/content/dam/betting/Better-Collective/football-mobile-bet.jpg");
+  			background-repeat: no-repeat;
+  			background-size: cover;
+		}
+
+		h1 {
+			color: #444;
+			font-size: 36px;
+			font-weight: bold;
+			margin-top: 40px;
+			text-align: center;
+			text-transform: uppercase;
+		}
+
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			margin-top: 20px;
+			padding: 20px;
+		}
+
+		.card {
+			background-color: #fff;
+			border-radius: 10px;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+			margin: 20px;
+			overflow: hidden;
+			width: 300px;
+			transition: all 0.3s ease;
+		}
+
+		.card:hover {
+			transform: translateY(-5px);
+			box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+		}
+
+		.card-header {
+			background-color: #c0392b;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+
+		.card-header h2 {
+			font-size: 24px;
+			margin: 0;
+			text-transform: uppercase;
+		}
+
+		.card-body {
+			padding: 20px;
+		}
+
+		.card-description {
+			color: #777;
+			font-size: 16px;
+			margin-bottom: 20px;
+			text-align: justify;
+		}
+
+		.card-price {
+			color: #c0392b;
+			font-size: 32px;
+			font-weight: bold;
+			margin-bottom: 20px;
+			text-align: center;
+		}
+
+		.card-button {
+			background-color: #c0392b;
+			border: none;
+			border-radius: 20px;
+			color: #fff;
+			cursor: pointer;
+			font-size: 18px;
+			padding: 10px 20px;
+			transition: all 0.3s ease;
+			width: 100%;
+		}
+
+		.card-button:hover {
+			background-color: #a52714;
+		}
+
+		@media screen and (max-width: 768px) {
+			.card {
+				width: calc(50% - 40px);
+			}
+		}
+
+		@media screen and (max-width: 480px) {
+			.card {
+				width: calc(100% - 40px);
+			}
+		}
+	</style>
+</head>
+<body>
+	<h1>Subscription Plans</h1>
+    
+	<div class="container">
+		<div class="card">
+            <div class="card-header">
+                <h2>Standard Plan</h2>
+            </div>
+            <div class="card-body">
+                <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in tincidunt est. Donec porta, ipsum non aliquet eleifend, ex nulla semper lectus, sed hendrerit turpis magna eu urna.</p>
+                <p class="card-price">$19.99/month</p>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-header">
+                <h2>Premium Plan</h2>
+            </div>
+            <div class="card-body">
+                <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in tincidunt est. Donec porta, ipsum non aliquet eleifend, ex nulla semper lectus, sed hendrerit turpis magna eu urna.</p>
+                <p class="card-price">$29.99/month</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="card-header">
+                <h2>Gold plan</h2>
+            </div>
+            <div class="card-body">
+                <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in tincidunt est. Donec porta, ipsum non aliquet eleifend, ex nulla semper lectus, sed hendrerit turpis magna eu urna.</p>
+                <p class="card-price">$39.99/month</p>
+            </div>
+        </div>
