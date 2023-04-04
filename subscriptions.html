@@ -100,7 +100,33 @@
 				width: calc(100% - 40px);
 			}
 		}
+	.red-button {
+		background-color: white;
+		color: red;
+		border: 2px solid red;
+		border-radius: 5px;
+		padding: 10px 20px;
+		font-size: 18px;
+		font-weight: bold;
+		text-transform: uppercase;
+		cursor: pointer;
+		transition: all 0.3s ease;
+	  }
+	  
+	  .red-button:hover {
+		background-color: red;
+		color: white;
+	  }
 	</style>
+	<div class="container">
+		<div class="vertical-center">
+			<a href="index.html">
+		  		<button class="red-button">
+					Home page
+				</button>
+			</a>
+		</div>
+	</div>
 </head>
 <body>
 	<h1>Subscription Plans</h1>
@@ -135,3 +161,4 @@
                 <p class="card-price">$39.99/month</p>
             </div>
         </div>
+
