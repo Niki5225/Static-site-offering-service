@@ -209,7 +209,10 @@
   
   section .email,
   section .phone,
-  section .address {
+  section .address,
+  section .telegram, 
+  section .facebook, 
+  section .instagram {
     display: flex;
     align-items: center;
     margin: 16px 24px;
@@ -228,7 +231,7 @@
     text-align: center;
     font-weight: bold;
   }
-  
+    
   /* Additional Styles */
   
   #testimonials {
